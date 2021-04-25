@@ -1,0 +1,26 @@
+#menu-nav {
+    box-shadow: 5px 3px 5px whitesmoke !important;
+    font-family: Arial,Helvetica,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    letter-spacing: .28em;
+    text-transform: uppercase;
+    background-color:white !important;
+   
+}
+
+#menu-nav li{
+    padding-block: 15px;
+    padding-right: 30px;
+    color:#000 !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+}
+
+.navbar-brand {
+    margin-left: 15px;
+    
+}

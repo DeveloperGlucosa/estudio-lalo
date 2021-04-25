@@ -1,0 +1,63 @@
+.carousel-control-next-icon, .carousel-control-prev-icon, .carousel-indicators button{
+background-color: steelblue;
+}
+
+.carousel-indicators, .carousel-caption{
+    top:0;
+    margin-top: 15px;
+}
+
+.home-titles>h5{
+    color: rgb(46, 85, 124);
+}
+
+#container-home{
+   font-family: 'Raleway-light';
+
+}
+
+#proceso-title, #proceso-main{
+    background-color: #F8F8F8;
+    text-align: center;
+    font-family: 'Raleway-light';
+    padding-top: 25px;
+}
+
+.img-proceso{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border-width: 6px;
+    border-style: solid;
+    vertical-align: middle;
+    border-color: lightgray;
+}
+
+h5{
+    padding-top: 20px;
+}
+
+.card-text {
+    padding: 30px;
+}
+
+.home-titles{
+    text-align: center;
+    padding-top: 25px;
+}
+
+.img-galeria{
+    width: 200px;
+    height: 200px;
+    border-width: 10px;
+    margin: 20px;
+}
+
+.glaleria{
+    padding-top: 50px;
+    text-align: center; 
+}
+
+.galery-col{
+    text-align: center;
+}
