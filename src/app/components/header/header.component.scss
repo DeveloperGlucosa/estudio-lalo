@@ -1,4 +1,4 @@
-#menu-nav {
+.navbar {
     box-shadow: 5px 3px 5px whitesmoke !important;
     font-family: Arial,Helvetica,sans-serif;
     font-weight: 400;
@@ -7,10 +7,10 @@
     letter-spacing: .28em;
     text-transform: uppercase;
     background-color:white !important;
-   
 }
 
-#menu-nav li{
+
+nav-link{
     padding-block: 15px;
     padding-right: 30px;
     color:#000 !important;
@@ -24,3 +24,4 @@
     margin-left: 15px;
     
 }
+

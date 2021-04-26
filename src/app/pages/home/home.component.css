@@ -2,9 +2,21 @@
 background-color: steelblue;
 }
 
-.carousel-indicators, .carousel-caption{
+.carousel-indicators{
     top:0;
     margin-top: 15px;
+}
+.carousel-caption{
+    color: rgb(185, 209, 228);
+    margin-top: 10px;
+    top: 0;
+    
+}
+
+.carousel-caption>h5{
+    color: black;
+    margin-top: 10px;
+    top: 0;
 }
 
 .home-titles>h5{
