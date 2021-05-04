@@ -6,17 +6,21 @@ import { AppRoutingModule } from './app-routing.module';
 import { HeaderComponent} from './components/header/header.component';
 import { FooterComponent} from './components/footer/footer.component';
 import { HomeComponent } from './pages/home/home.component';
+import { EstudioComponent } from './pages/estudio/estudio.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     FooterComponent,
-    HeaderComponent
+    HeaderComponent,
+    EstudioComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]

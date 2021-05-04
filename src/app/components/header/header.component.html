@@ -1,19 +1,62 @@
-  <nav class="navbar navbar-expand-md navbar-light bg-light">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">
-        <img src="assets/home/images/logo.png" alt="" width="55" height="57">
+<div class="container-fluid" id="header-logo">
+  <div class="row d-none d-md-block">
+    <div class="col" id="logo-main">
+      <a href="#">
+        <img src="assets/home/images/logo.png" alt="" width="77" height="87">
       </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav ms-auto">
-          <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-          <a class="nav-link" href="#">Estudio</a>
+    </div>
+  </div>
+</div>
+<nav class="navbar navbar-expand-md navbar-light bg-light">
+  <div class="container d-md-none" id="container-responsive">
+
+    <div class="row">
+      <div class="col" id="col-logo-sm">
+        <a href="#">
+          <img src="assets/home/images/logo.png" alt="" width="55" height="57">
+        </a>
+      </div>
+
+      <div class="col" id="col-toggler">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse"
+          aria-controls="nav-links" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+
+
+    </div>
+  </div>
+  <div class="container" id="container-menu">
+    <div class="d-flex justify-content-center">
+      <div class="collapse navbar-collapse" id="nav-links">
+        <div class="navbar-nav">
+          <div class="container d-none d-md-block">
+          <button type="button" routerLink="" class="btn btn-outline-secondary mr-2 boton-menu" placement="bottom" ngbTooltip="Inicio">
+            <i class="bi bi-circle-fill"></i>
+          </button>
+          <button type="button" routerLink="/estudio" class="btn btn-outline-secondary mr-2 boton-menu" placement="bottom" ngbTooltip="Estudio">
+            <i class="bi bi-circle-fill"></i>
+          </button>
+          <button type="button" routerLink="" class="btn btn-outline-secondary mr-2 boton-menu" placement="bottom" ngbTooltip="Servicios">
+            <i class="bi bi-circle-fill"></i>
+          </button>
+          <button type="button" routerLink="" class="btn btn-outline-secondary mr-2 boton-menu" placement="bottom" ngbTooltip="Proyectos">
+            <i class="bi bi-circle-fill"></i>
+          </button>
+          <button type="button" routerLink="" class="btn btn-outline-secondary mr-2 boton-menu" placement="bottom" ngbTooltip="Contacto">
+            <i class="bi bi-circle-fill"></i>
+          </button>
+        </div>
+          <div class="container d-md-none">
+          <a class="nav-link" aria-current="page" href="#">Inicio</a>
+          <a class="nav-link" routerLink="/estudio">Estudio</a>
           <a class="nav-link" href="#">Servicios</a>
           <a class="nav-link" href="#">Proyectos</a>
           <a class="nav-link" href="#">Contacto</a>
         </div>
+        </div>
       </div>
     </div>
-  </nav>
+  </div>
+</nav>

@@ -1,5 +1,4 @@
 .navbar {
-    box-shadow: 5px 3px 5px whitesmoke !important;
     font-family: Arial,Helvetica,sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -7,8 +6,19 @@
     letter-spacing: .28em;
     text-transform: uppercase;
     background-color:white !important;
+    text-align: center;
+}
+#col-logo-sm{
+    text-align: left !important;
 }
 
+#col-toggler{
+    text-align: right !important;
+}
+
+#logo-main{
+    padding-top: 15px;
+}
 
 nav-link{
     padding-block: 15px;
@@ -20,8 +30,27 @@ nav-link{
     color: black;
 }
 
-.navbar-brand {
-    margin-left: 15px;
-    
+
+#header-logo{
+    text-align: center;
+}
+
+#nav-links{
+    text-align: center;
+}
+
+#container-menu{
+    justify-content: center;
+}
+
+#container-responsive{
+    display: block;
+}
+
+.boton-menu{
+    border-radius: 50%;
+    margin-top: 15px;
+    margin-right: 25px;
+    border: transparent;
 }
 
