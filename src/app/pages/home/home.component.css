@@ -1,7 +1,23 @@
+
 #container-home{
    font-family: 'Raleway-light';
-   padding-left: 40px;
-   padding-right: 40px;
-   min-height: 65vh;
+}
+
+.bg-img{
+    background-image: url("./../../../assets/home/images/FONDO_SINLOGO.JPG");
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    height: 80vh;
+    width: 100vw;
+}
+
+.title{
+    font-size: 45px;
+    letter-spacing: .28em;
+    text-align: center;
+    font-weight: bold;
+
 }
 
