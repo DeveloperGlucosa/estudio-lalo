@@ -7,9 +7,16 @@
     text-transform: uppercase;
     background-color:white !important;
     text-align: center;
-    height: 5vh;
     width: 100vw;
 }
+@media (min-width: 768px) {     
+    .navbar{
+      
+      height: 45px;
+    }
+  }
+
+
 #col-logo-sm{
     text-align: left !important;
 }
@@ -35,10 +42,12 @@ nav-link{
 
 #container-menu{
     justify-content: center;
+    background-color: white;
 }
 
 #container-responsive{
     display: block;
+    height: 70px;
 }
 
 .boton-menu{
