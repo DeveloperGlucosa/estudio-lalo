@@ -12,4 +12,20 @@
     word-spacing: 15px;
     letter-spacing: 1px;
     text-shadow: 0 0 2px gray;
+    
+  
 }
+.redes>a{
+    text-decoration: none;
+    color: black;
+    margin-right: 15px;
+} 
+
+@media (max-width: 768px) {     
+    .redes>a{
+      
+        font-size: 3vw;
+    }
+  }
+
+
