@@ -9,22 +9,19 @@
 }
 
 .redes{
-    word-spacing: 15px;
-    letter-spacing: 1px;
-    text-shadow: 0 0 2px gray;
-    
-  
+    letter-spacing: 2px;
 }
 .redes>a{
     text-decoration: none;
     color: black;
-    margin-right: 15px;
+    margin-right: 40px;
 } 
 
 @media (max-width: 768px) {     
     .redes>a{
       
         font-size: 3vw;
+        margin-right: 13px;
     }
   }
 
