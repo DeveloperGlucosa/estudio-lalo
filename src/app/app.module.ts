@@ -10,6 +10,7 @@ import { EstudioComponent } from './pages/estudio/estudio.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { ServiciosComponent } from './pages/servicios/servicios.component';
 import { ProyectosComponent } from './pages/proyectos/proyectos.component';
+import { ContactoComponent } from './pages/contacto/contacto.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { ProyectosComponent } from './pages/proyectos/proyectos.component';
     HeaderComponent,
     EstudioComponent,
     ServiciosComponent,
-    ProyectosComponent
+    ProyectosComponent,
+    ContactoComponent
   ],
   imports: [
     BrowserModule,
