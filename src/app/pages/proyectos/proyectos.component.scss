@@ -37,3 +37,9 @@
 .img-proyectos{
     max-width: 80%;
 }
+
+@media (min-width: 576px){
+.modal-dialog {
+    max-width: 800px;
+}
+}
