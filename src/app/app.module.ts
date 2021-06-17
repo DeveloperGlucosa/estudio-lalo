@@ -12,6 +12,8 @@ import { ServiciosComponent } from './pages/servicios/servicios.component';
 import { ProyectosComponent } from './pages/proyectos/proyectos.component';
 import { ContactoComponent } from './pages/contacto/contacto.component';
 
+import { RecaptchaModule } from "ng-recaptcha";
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -26,7 +28,8 @@ import { ContactoComponent } from './pages/contacto/contacto.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+    RecaptchaModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
