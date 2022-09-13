@@ -2,50 +2,52 @@
 <div class="container" id="container-contacto">
   <div class="row p-4">
     <div class="col">
-      <h1><b>Contacto</b></h1>
+      <h1><b>{{ 'CONTACTO.TITULO.TITLE' | translate }}</b></h1>
     </div>
   </div>
   <div class="row p-3">
     <div class="col-md-6">
     <p>
-      <b>En qué podemos ayudarte?</b>
+      <b>{{ 'CONTACTO.PAR1.TITLE' | translate }}</b>
       <br /><br />
-      Déjanos tus datos y nosotros nos pondremos en contacto contigo.
+      {{ 'CONTACTO.PAR2.TITLE' | translate }}
     </p>
     
-    <form (submit)="enviar($event)">
+    <form [formGroup]="correoForm" (ngSubmit)="onSubmit()">
       <div class="mb-3">
-        <label for="exampleInputEmail1" class="form-label">Nombre</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <label for="nombre" class="form-label">{{ 'CONTACTO.PAR3.TITLE' | translate }}</label>
+        <input type="email" class="form-control" id="nombre" aria-describedby="emailHelp" formControlName="nombre">
       </div>
       <div class="mb-3">
-        <label for="exampleInputEmail1" class="form-label">Correo electrónico</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <label for="correo" class="form-label">{{ 'CONTACTO.PAR4.TITLE' | translate }}</label>
+        <input type="email" class="form-control" id="correo" aria-describedby="emailHelp" formControlName="correo"> 
       </div>
       <div class="mb-3">
-        <label for="exampleFormControlTextarea1" class="form-label">Comentarios</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        <label for="comentarios" class="form-label">{{ 'CONTACTO.PAR5.TITLE' | translate }}</label>
+        <textarea class="form-control" id="comentarios" rows="3" formControlName="comentarios"></textarea >
       </div>
       <div style="transform:scale(0.7);transform-origin:0;">
-      <re-captcha (resolved)="resolved($event)" siteKey="6LfWazobAAAAANzjgLavofy0PWdKEQHP9wAOd4DN"></re-captcha>
+      <re-captcha #myCaptcha (resolved)="resolved($event)" siteKey="6LfWazobAAAAANzjgLavofy0PWdKEQHP9wAOd4DN"></re-captcha>
       </div>
-      <button type="submit" class="btn btn-dark">Enviar</button>
+      <button type="submit" class="btn btn-dark">{{ 'CONTACTO.PAR6.TITLE' | translate }}</button>
     </form>
-        
+
+
+    
 
     </div>
   <div class="col-md-6 my-4">
     <br/>
-    <b> Contáctanos por email</b> 
+    <b> {{ 'CONTACTO.PAR7.TITLE' | translate }}</b> 
     <br/><br/>
-    <b> México</b>
-    <br/><i class="bi bi-envelope"></i> eduardo@estudiofd.com
-    <br/>Oficinas: Vía de Gavia 28-33, Metepec, México.
+    <b>{{ 'CONTACTO.PAR8.TITLE' | translate }}</b>
+    <br/><i class="bi bi-envelope"></i>{{ 'CONTACTO.PAR9.TITLE' | translate }}
+    <br/>{{ 'CONTACTO.PAR10.TITLE' | translate }}
     
     <br/> <br/>
-    <b>Madrid </b>
-    <br/> <i class="bi bi-envelope"></i> madrid@estudiofd.com
-    <br/>Oficinas: Amor de dios 12, Madrid, España.<br/>
+    <b>{{ 'CONTACTO.PAR11.TITLE' | translate }} </b>
+    <br/> <i class="bi bi-envelope"></i> {{ 'CONTACTO.PAR12.TITLE' | translate }}
+    <br/>{{ 'CONTACTO.PAR13.TITLE' | translate }}<br/>
   </div>
 </div>
 

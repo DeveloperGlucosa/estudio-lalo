@@ -1,0 +1,347 @@
+{
+    "HOME": {
+        "TITLE": " Estudio FD. All rights reserved.",
+        "SELECT": "Change language"
+    },
+    "MENU": {
+        "HOME": {
+            "TITLE": "Home",
+            "SELECT": "Change language"
+        },
+        "ESTUDIO": {
+            "TITLE": "The firm",
+            "SELECT": "Change language"
+        },
+        "SERVICIOS": {
+            "TITLE": "Services",
+            "SELECT": "Change language"
+        },
+        "PROYECTO": {
+            "TITLE": "Work",
+            "SELECT": "Change language"
+        },
+        "CONTACTO": {
+            "TITLE": "Contact",
+            "SELECT": "Change language"
+        }
+    },
+    "ESTUDIO": {
+        "TITILO":{
+            "TITLE": "The Firm",
+            "SELECT": "Change language"
+        },
+        "PAR1":{
+            "TITLE": "ESTUDIO FD, is an interior design firm, that creates deep and practical spaces and environments, full of aesthetic and style.",
+            "SELECT": "Change language"
+        },
+        "PAR2":{
+            "TITLE": "We are experts in WELLNESS DESIGN for the development of great projects. Our proposals are focused on the quality of life and the best experience for the cohabitants.",
+            "SELECT": "Change language"
+        },
+        "PAR3":{
+            "TITLE": "We love designing furniture, remodeling spaces and creating experiences focused on the wellbeing of the user.",
+            "SELECT": "Change language"
+        },
+        "PAR4":{
+            "TITLE": "Each one of our projects has its own personality, they’re full of unknowns and solutions, challenges and satisfaction, but above all, of knowledge and tons of design.",
+            "SELECT": "Change language"
+        },
+        "PAR5":{
+            "TITLE": "Eduardo got a bachelor’s degree in Industrial Design at Universidad Iberoamericana (2002-2005).",
+            "SELECT": "Change language"
+        },
+        "PAR6":{
+            "TITLE": "Later he got a Master’s degree in design at UAEM (2009-2011). In 2015 he founded ESTUDIO FD.",
+            "SELECT": "Change language"
+        },
+        "PAR7":{
+            "TITLE": "He has collaborated with internationally well known architects. With +10 years of experience, for him, design is a way of living. Design is the continuous creation of innovative solutions. To transmit feelings through the everyday objects and their textures, materials, scents and the hands that designed and made them.",
+            "SELECT": "Change language"
+        },
+        "PAR8":{
+            "TITLE": "A GREAT DESIGN MUST HAVE FANTASTIC AESTHETICS, SUPERIOR FUNCTIONALITY AND EXCELLENT QUALITY.",
+            "SELECT": "Change language"
+        },
+        "PAR9":{
+            "TITLE": "Certifications",
+            "SELECT": "Change language"
+        }
+    },
+    "SERVICIOS":{
+        "TITULO":{
+            "TITLE": "Services",
+            "SELECT": "Change language"
+        },
+        "SERV_PAR1":{
+            "TITLE": "We develop comprehensive design and architectural projects, for residential, corporate and retail sectors.",
+            "SELECT": "Change language"
+        },
+        "SERV_TIT2":{
+            "TITLE": "ARCHITECTURE",
+            "SELECT": "Change language"
+        },
+        "SERV_PAR2":{
+            "TITLE": "Conceptualization, design, visualization, lighting, construction and architectural details.",
+            "SELECT": "Change language"
+        },
+        "SERV_TIT3":{
+            "TITLE": "RESIDENTIAL",
+            "SELECT": "Change language"
+        },
+        "SERV_PAR3":{
+            "TITLE": "Design and manufacture of furniture, kitchens, dressing rooms, bathroom furniture, general furniture and interior design.",
+            "SELECT": "Change language"
+        },
+        "SERV_TIT4":{
+            "TITLE": "COMERCIAL",
+            "SELECT": "Change language"
+        },
+        "SERV_PAR4":{
+            "TITLE": "Development and manufacture of furniture, details, signs and remodeling of restaurants, bars, cafeterias, retail stores, hotels and schools.",
+            "SELECT": "Change language"
+        },
+        "SERV_TIT5":{
+            "TITLE": "CORPORATE",
+            "SELECT": "Change language"
+        },
+        "SERV_PAR5":{
+            "TITLE": "Design and manufacture of desks, storage furniture, lobby, meeting rooms, seating and office remodeling.",
+            "SELECT": "Change language"
+        },
+        "PARTNER":{
+            "TITLE": "Partners",
+            "SELECT": "Change language"
+        },
+        "PART1":{
+            "TITLE": "At the Studio we work with some of the best brands on the market. The quality of materials and processes characterize each of our projects.",
+            "SELECT": "Change language"
+        }
+
+    },
+    "PROYECTOS":{
+        "TITULO":{
+            "TITLE": "Work",
+            "SELECT": "Change language"
+        },
+        "PAR1":{
+            "TITLE": "We have worked on designs that go from furniture for a stadium, through film sets, to the remodeling of a chapel.",
+            "SELECT": "Change language"
+        },
+        "PAR2":{
+            "TITLE": "We are a team of designers, architects and craftsmen artisans who create innovative experiences in spaces and their objects.",
+            "SELECT": "Change language"
+        },
+        "CARD1":{
+            "N1":{
+                "TITLE": "Architecture, loft",
+                "SELECT": "Change language"
+            },
+            "N2":{
+                "TITLE": "Tequesquitengo / Morelos 2017.",
+                "SELECT": "Change language"
+            },
+            "N3":{
+                "TITLE": "Particular.",
+                "SELECT": "Change language"
+            }
+        },
+        "CARD2":{
+            "N1":{
+                "TITLE": "Furniture",
+                "SELECT": "Change language"
+            },
+            "N2":{
+                "TITLE": "Polanco / CDMX 2020.",
+                "SELECT": "Change language"
+            },
+            "N3":{
+                "TITLE": "LBAM Studio/Rappi.",
+                "SELECT": "Change language"
+            }
+        },
+        "CARD3":{
+            "N1":{
+                "TITLE": " Furniture, Remodeling and details",
+                "SELECT": "Change language"
+            },
+            "N2":{
+                "TITLE": "Naucalpan / CDMX 2016. ",
+                "SELECT": "Change language"
+            },
+            "N3":{
+                "TITLE": "Irish - Institute.",
+                "SELECT": "Change language"
+            }
+        },
+        "CARD4":{
+            "N1":{
+                "TITLE": " Design and manufacture of dressing rooms",
+                "SELECT": "Change language"
+            },
+            "N2":{
+                "TITLE": "Ex Hacienda Jajalpa / Edo de México 2015. ",
+                "SELECT": "Change language"
+            },
+            "N3":{
+                "TITLE": "Particular.",
+                "SELECT": "Change language"
+            }
+        },
+        "CARD5":{
+            "N1":{
+                "TITLE": "Furniture, Remodeling and details",
+                "SELECT": "Change language"
+            },
+            "N2":{
+                "TITLE": "Interlomas / CDMX 2016. ",
+                "SELECT": "Change language"
+            },
+            "N3":{
+                "TITLE": "Universidad Anáhuac.",
+                "SELECT": "Change language"
+            }
+        },
+        "CARD6":{
+            "N1":{
+                "TITLE": "Interior design and execution",
+                "SELECT": "Change language"
+            },
+            "N2":{
+                "TITLE": "Toluca / Edo de México 2019. ",
+                "SELECT": "Change language"
+            },
+            "N3":{
+                "TITLE": "Ponte Pizza.",
+                "SELECT": "Change language"
+            }
+        },
+        "CARD7":{
+            "N1":{
+                "TITLE": "Interior design and execution",
+                "SELECT": "Change language"
+            },
+            "N2":{
+                "TITLE": "Mundo E / CDMX 2019. ",
+                "SELECT": "Change language"
+            },
+            "N3":{
+                "TITLE": "BSHOP.",
+                "SELECT": "Change language"
+            }
+        },
+        "CARD8":{
+            "N1":{
+                "TITLE": "Furniture design",
+                "SELECT": "Change language"
+            },
+            "N2":{
+                "TITLE": "Los Encinos / Edo de México 2017.",
+                "SELECT": "Change language"
+            },
+            "N3":{
+                "TITLE": "Particular.",
+                "SELECT": "Change language"
+            }
+        },
+        "CARD9":{
+            "N1":{
+                "TITLE": "Furniture, Remodeling and details",
+                "SELECT": "Change language"
+            },
+            "N2":{
+                "TITLE": "Santa Fé / CDMX 2018.",
+                "SELECT": "Change language"
+            },
+            "N3":{
+                "TITLE": "CAA - GBG.",
+                "SELECT": "Change language"
+            }
+        },
+        "CARD10":{
+            "N1":{
+                "TITLE": "Design and manufacture of furniture",
+                "SELECT": "Change language"
+            },
+            "N2":{
+                "TITLE": "Valle de Bravo / Edo de México 2018.",
+                "SELECT": "Change language"
+            },
+            "N3":{
+                "TITLE": "Particular.",
+                "SELECT": "Change language"
+            }
+        },
+        "CLIENTES":{
+            "TITLE": "CLIENTS",
+            "SELECT": "Change language"
+        },
+        "GALERIA":{
+            "TITLE": "Galery",
+            "SELECT": "Change language"
+        }
+
+    },
+    "CONTACTO":{
+        "TITULO":{
+            "TITLE": "Contact",
+            "SELECT": "Change language"
+        },
+        "PAR1":{
+            "TITLE": "How can we help you?",
+            "SELECT": "Change language"
+        },
+        "PAR2":{
+            "TITLE": "Fill out our contact form and we will be sure to get back to you as soon as possible.",
+            "SELECT": "Change language"
+        },
+        "PAR3":{
+            "TITLE": "Name",
+            "SELECT": "Change language"
+        },
+        "PAR4":{
+            "TITLE": "e-mail",
+            "SELECT": "Change language"
+        },
+        "PAR5":{
+            "TITLE": "Message",
+            "SELECT": "Change language"
+        },
+        "PAR6":{
+            "TITLE": "Send",
+            "SELECT": "Change language"
+        },
+        "PAR7":{
+            "TITLE": "Send us an email",
+            "SELECT": "Change language"
+        },
+        "PAR8":{
+            "TITLE": "México",
+            "SELECT": "Change language"
+        },
+        "PAR9":{
+            "TITLE": "eduardo@estudiofd.com",
+            "SELECT": "Change language"
+        },
+        "PAR10":{
+            "TITLE": "Office: Vía de Gavia 28-33, Metepec, México.",
+            "SELECT": "Change language"
+        },
+        "PAR11":{
+            "TITLE": "Madrid",
+            "SELECT": "Change language"
+        },
+        "PAR12":{
+            "TITLE": "madrid@estudiofd.com",
+            "SELECT": "Change language"
+        },
+        "PAR13":{
+            "TITLE": "Office: Amor de dios 12, Madrid, España.",
+            "SELECT": "Change language"
+        } 
+
+    },
+    "FOOTER":{
+        "TITLE": " Estudio FD. All rights reserved.",
+        "SELECT": "Change language"
+    }
+}
