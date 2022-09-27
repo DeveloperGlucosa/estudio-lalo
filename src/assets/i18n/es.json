@@ -27,7 +27,7 @@
     },
     "ESTUDIO": {
         "TITILO":{
-            "TITLE": "El estudio",
+            "TITLE": "Nosotros",
             "SELECT": "Change language"
         },
         "PAR1":{
@@ -264,6 +264,34 @@
             },
             "N2":{
                 "TITLE": "Valle de Bravo / Edo de México 2018.",
+                "SELECT": "Change language"
+            },
+            "N3":{
+                "TITLE": "Particular.",
+                "SELECT": "Change language"
+            }
+        },
+        "CARD11":{
+            "N1":{
+                "TITLE": "Diseño de Interiores",
+                "SELECT": "Change language"
+            },
+            "N2":{
+                "TITLE": "Interlomas",
+                "SELECT": "Change language"
+            },
+            "N3":{
+                "TITLE": "Particular.",
+                "SELECT": "Change language"
+            }
+        },
+        "CARD12":{
+            "N1":{
+                "TITLE": "Diseño de Interiores",
+                "SELECT": "Change language"
+            },
+            "N2":{
+                "TITLE": "Sagasta, Madrid",
                 "SELECT": "Change language"
             },
             "N3":{

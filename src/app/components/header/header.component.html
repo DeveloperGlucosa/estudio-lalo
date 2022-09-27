@@ -1,60 +1,101 @@
-
-<nav class="navbar navbar-expand-md navbar-light bg-light">
-  <div class="container d-md-none" id="container-responsive">
-    <div class="row">
-      <div class="col" id="col-logo-sm">
-        <a href="#">
-          <img src="assets/home/images/logo.png" alt="" width="55" height="57">
-        </a>
+<header>
+  <div class="fixed-top" id="sb-header">
+    <!-- navbar collapse-->
+    <nav class="navbar navbar-expand-md p-0 navbar-dark" [ngClass]="{'nav-active' : scrolling}">
+      <!-- small header -->
+      <div class="d-md-none d-flex w-100 sb-small-header bg-dark-gradient">
+<!--         <div class="align-self-center mr-auto ml-3 my-3">
+          IMG
+        </div> -->
+        <div class="align-self-center">
+          <button type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            Texto
+          </button>
+        </div>
       </div>
+      <!-- TODO: Refactor nav duplicated menu -->
+      <nav class="d-md-none w-100 navbar navbar-expand-md py-0 navbar-dark bg-dark-gradient sb-header-menu"> 
 
-      <div class="col" id="col-toggler">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse"
-          aria-controls="nav-links" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      </div>
-
-
-    </div>
-  </div>
-  <div class="container" id="container-menu">
-    <div class="d-flex justify-content-center">
-      <div class="collapse navbar-collapse" id="nav-links">
-        <div class="navbar-nav">
-          <div class="container d-none d-md-block">
-          <button type="button" routerLink="" class="btn btn-outline-secondary btn-sm mr-2 boton-menu" placement="bottom" [ngbTooltip]="'MENU.HOME.TITLE' | translate ">
-            <i class="bi bi-circle-fill text-secondary"></i>
-          </button>
-          <button type="button" routerLink="/estudio" class="btn btn-outline-secondary btn-sm mr-2 boton-menu" placement="bottom" [ngbTooltip]="'MENU.ESTUDIO.TITLE' | translate ">
-            <i class="bi bi-circle-fill text-secondary"></i>
-          </button>
-          <button type="button" routerLink="/servicios" class="btn btn-outline-secondary mr-2 btn-sm boton-menu" placement="bottom" [ngbTooltip]="'MENU.SERVICIOS.TITLE' | translate ">
-            <i class="bi bi-circle-fill text-secondary"></i>
-          </button>
-          <button type="button" routerLink="/proyectos" class="btn btn-outline-secondary mr-2 btn-sm boton-menu" placement="bottom" [ngbTooltip]="'MENU.PROYECTO.TITLE' | translate ">
-            <i class="bi bi-circle-fill text-secondary"></i>
-          </button>
-          <button type="button" routerLink="/contacto" class="btn btn-outline-secondary mr-2 btn-sm boton-menu" placement="bottom" [ngbTooltip]="'MENU.CONTACTO.TITLE' | translate ">
-            <i class="bi bi-circle-fill text-secondary"></i>
-          </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav ml-auto" style="margin-right: 50px !important;">
+            <li class="nav-item" [ngClass]="{ 'active': currentRoute === '/home' || currentRoute === '/' }">
+              <a class="nav-link" routerLink="/home">Inicio</a>
+            </li>
+            <li class="nav-item" [ngClass]="{active: currentRoute == '/about'}">
+              <a class="nav-link" routerLink="/about">Nosotros</a>
+            </li>
+            <li class="nav-item" [ngClass]="{active: currentRoute == '/products'}">
+              <a class="nav-link" routerLink="/products">Servicios</a>
+            </li>
+            <li class="nav-item" [ngClass]="{active: currentRoute == '/location'}">
+              <a class="nav-link" routerLink="/location">Proyectos</a>
+            </li>
+            <li class="nav-item" [ngClass]="{active: currentRoute == '/contact'}">
+              <a class="nav-link" routerLink="/contact">Contacto</a>
+            </li>
+            <!-- <li class="nav-item" [ngClass]="{active: currentRoute == '/faqs'}">
+              <a class="nav-link" routerLink="/faqs">Preguntas frecuentes</a>
+            </li>
+            <li class="nav-item" [ngClass]="{active: currentRoute == '/portal'}">
+              <a class="nav-link" routerLink="/portal">Portal de clientes </a>
+            </li> -->
+          </ul>
+            <!-- <form class="form-inline mt-2 mt-md-0">
+              <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form> -->
+          </div>
+        </nav>
+      <!-- large header -->
+      <div class="d-none d-md-flex w-100 sb-large-header my-1" style="font-size: 22px;">
+        <div class="align-self-right mr-auto m-2" style="margin-left: 50px !important;">
+<!--           <button type="button" aria-label="Home">
+            IMG
+          </button> -->
+        </div>
+        
+         
+        <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarCollapse">
           
-            <button [ngClass]="{'active': activeLang == 'en'}" id = "div-idioma" class="boton-idioma" (click)="cambiarLenguaje('en')">EN</button> / 
-            <button [ngClass]="{'active': activeLang == 'es'}" class="boton-idioma" (click)="cambiarLenguaje('es')">ES</button>
+          <ul class="navbar-nav ml-auto" style="margin-right: 50px !important;">
+            
+            <li class="nav-item" [ngClass]="{ 'active': currentRoute === '/home' || currentRoute === '/' }">
+              <a class="nav-link" routerLink="/">Inicio</a>
+            </li>
+            <li class="nav-item" [ngClass]="{active: currentRoute == '/estudio'}">
+              <a class="nav-link" routerLink="/estudio">Nosotros</a>
+            </li>
+            <li class="nav-item" [ngClass]="{active: currentRoute == '/servicios'}">
+              <a class="nav-link" routerLink="/servicios">Servicios</a>
+            </li>
+            <li class="nav-item" [ngClass]="{active: currentRoute == '/proyectos'}">
+              <a class="nav-link" routerLink="/proyectos">Proyectos</a>
+            </li>
+            <li class="nav-item" [ngClass]="{active: currentRoute == '/contacto'}">
+              <a class="nav-link" routerLink="/contacto">Contacto</a>
+            </li>
+            <!-- <li class="nav-item" [ngClass]="{active: currentRoute == '/faqs'}">
+              <a class="nav-link" routerLink="/faqs">Preguntas frecuentes</a>
+            </li>
+            <li class="nav-item" [ngClass]="{active: currentRoute == '/portal'}">
+              <a class="nav-link" routerLink="/portal">Portal de clientes </a>
+            </li> -->
+          </ul>
+          <!-- <form class="form-inline mt-2 mt-md-0">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form> -->
+          
           
         </div>
-          <div class="container d-md-none">
-          <a class="nav-link" aria-current="page" href="#">Inicio</a>
-          <a class="nav-link" routerLink="/estudio">El Estudio</a>
-          <a class="nav-link" routerLink="/servicios">Servicios</a>
-          <a class="nav-link" routerLink="/proyectos">Proyectos</a>
-          <a class="nav-link" routerLink="/contacto">Contacto</a>
-          <button [ngClass]="{'active': activeLang == 'en'}" class="boton-idioma" (click)="cambiarLenguaje('en')">EN</button> / 
-          <button [ngClass]="{'active': activeLang == 'es'}" class="boton-idioma" (click)="cambiarLenguaje('es')">ES</button>
-  
-        </div>
-        </div>
       </div>
-    </div>
+    </nav>
+    
+    <!-- <hr class="d-none d-md-block sb-header-line"> -->
   </div>
-</nav>
+  <!-- <div class="visible-xs mt-5">&nbsp;</div> -->
+  <div class="d-block d-md-none" style="min-height: 80px;"></div>
+  <!-- <div class="d-none d-md-block d-lg-none" style="min-height: 100px;"></div>
+  <div class="d-none d-lg-block d-xl-none" style="min-height: 100px;"></div>
+  <div class="d-none d-xl-block" style="min-height: 100px;"></div> -->
+</header>

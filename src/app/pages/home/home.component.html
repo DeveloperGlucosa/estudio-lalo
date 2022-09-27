@@ -1,5 +1,5 @@
 <app-header></app-header>
-<div class="container-fluid" id="container-home">
+<div class="container-fluid secc-home" id="container-home">
    <div class="row">
     <div class="col d-flex justify-content-center">
      <div class="bg-img d-flex justify-content-center align-items-center">
@@ -13,10 +13,145 @@
 
 
 <!--cierra div container-->
-<div class="container-fluid" id="footer">
+<!-- <div class="container-fluid" id="footer">
   <div class="row">
       <div class="col-12" id="derechos">
           <p class="text-center">&copy;{{ 'HOME.TITLE' | translate }}</p>
       </div>
   </div>
+</div> -->
+
+<div class="container-fluid secc-home container-secciones" id="seccion-1">
+  <div class="row align-items-center">
+    <div class="col-10 col-md-7 align-items-center" id="col-sec1">
+      <span>En ESTUDIO FD creamos sensaciones a través de nuestros proyectos de interiorismo. 
+        Ayudamos a las personas a ser más productivas, a disfrutar su entorno y a ser más felices en sus espacios.</span>
+      </div>
+      <div class="col-10 col-md-5 p-4">
+        <img src="assets/home/images/Banner_FD_2x2.jpg"
+        class="img-fluid img-proyectos" alt="...">
+      </div>
+
+    </div>
+  
 </div>
+
+<div class="container container-secciones">
+  <div class="row">
+      <div class="col">
+          <h2><b>{{ 'SERVICIOS.TITULO.TITLE' | translate }}</b></h2>
+      </div>
+  </div>
+  <div class="row d-none d-md-block white-block"></div>
+  <div class="row p-4">
+    <div class="col-md-4 mod-services">
+      <img src="assets/servicios/images/Corporativo.jpg" class="img-proceso rounded mx-auto d-block" alt="...">
+      <br /><br />
+      <div class="text-screen-sm">
+      <h5><b>{{ 'SERVICIOS.SERV_TIT5.TITLE' | translate }}</b></h5>
+     
+      
+     
+      </div>
+      <br />
+  </div>
+      <div class="col-md-4 mod-services">
+          <img src="assets/servicios/images/Residencial.jpg" class="img-proceso rounded mx-auto d-block" alt="...">
+          <br /><br />
+          <div class="text-screen-sm">
+          <h5><b>{{ 'SERVICIOS.SERV_TIT3.TITLE' | translate }}</b></h5>
+         
+          </div>
+          <br />
+
+      </div>
+      <div class="col-md-4 mod-services">
+          <img src="assets/servicios/images/Comercial.jpg" class="img-proceso rounded mx-auto d-block" alt="...">
+          <br /><br />
+          <div class="text-screen-sm">
+          <h5><b>{{ 'SERVICIOS.SERV_TIT4.TITLE' | translate }}</b></h5>
+          
+          </div>
+          <br />
+
+      </div>
+      
+  </div>
+  <div class="row p-4">
+    <div class="col d-flex justify-content-center">
+       ¡Motivamos a tu equipo transformando tus oficinas en espacios espectaculares!
+    </div>
+  
+  </div>
+  </div><!--termina servicios-->
+
+  <div class="container container-secciones">
+    <div class="row">
+        <div class="col">
+            <h2><b>{{ 'PROYECTOS.TITULO.TITLE' | translate }}</b></h2>
+            <br />
+        </div>
+    </div>
+    <div class="row justify-content-center">
+
+      <div class="col-10 col-md-6 p-2">
+          
+              <button type="button" class="btn-image" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  <img src="assets/proyectos/images/interlomas/Interlomas1.jpg"
+                      class="img-fluid img-proyectos" alt="...">
+              </button>
+
+          
+      </div>
+
+      <div class="col-10 col-md-6 p-2">
+          
+              <button type="button" class="btn-image" data-bs-toggle="modal" data-bs-target="#modal2">
+                  <img src="assets/proyectos/images/sagasta/Cocina_1_A.jpg"
+                      class="img-fluid img-proyectos" alt="...">
+              </button>
+
+         
+      </div>
+      </div>
+    </div><!--termina proyectos-->
+
+    <div class="container container-secciones">
+      <div class="row" style="padding-top: 50px;">
+          <div class="col">
+            <h2><b>{{ 'CONTACTO.TITULO.TITLE' | translate }}</b></h2>
+            <br />
+          </div>
+      </div>
+      <div class="row p1">
+        <div class="col d-flex justify-content-center" style="text-align: center;">
+          <fa-icon [icon]="faWhatsapp" class="iconWhatsapp"></fa-icon>  
+        </div>
+      </div>
+     
+      <div class="row">
+        <div class="col d-flex justify-content-center" style="text-align: center;">
+                   
+          México & Madrid<br />
+          eduardo@estudiofd.com<br />
+      
+        </div>
+      </div>
+      <div class="row d-flex justify-content-center secc-home p-3">
+        <div class="col d-flex justify-content-center">   
+              <img src="assets/home/images/ESTUDIOFD.png"
+                  class="img-fluid img-logo" alt="...">
+        </div>
+        
+      </div>  
+      <div class="row d-flex justify-content-center secc-home">
+        <div class="col d-flex justify-content-center">   
+    </div>
+        </div>
+      
+         
+         
+    </div>
+
+
+  
