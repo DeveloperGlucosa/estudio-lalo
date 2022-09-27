@@ -271,6 +271,34 @@
                 "SELECT": "Change language"
             }
         },
+        "CARD11":{
+            "N1":{
+                "TITLE": "Interior design",
+                "SELECT": "Change language"
+            },
+            "N2":{
+                "TITLE": "Interlomas",
+                "SELECT": "Change language"
+            },
+            "N3":{
+                "TITLE": "Private.",
+                "SELECT": "Change language"
+            }
+        },
+        "CARD12":{
+            "N1":{
+                "TITLE": "Interior design",
+                "SELECT": "Change language"
+            },
+            "N2":{
+                "TITLE": "Sagasta, Madrid ",
+                "SELECT": "Change language"
+            },
+            "N3":{
+                "TITLE": "Private.",
+                "SELECT": "Change language"
+            }
+        },
         "CLIENTES":{
             "TITLE": "CLIENTS",
             "SELECT": "Change language"

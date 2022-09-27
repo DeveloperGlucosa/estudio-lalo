@@ -1,76 +1,75 @@
-.navbar {
-    font-family: Arial,Helvetica,sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 12px;
-    letter-spacing: .28em;
-    text-transform: uppercase;
-    background-color:white !important;
-    text-align: center;
-    width: 100vw;
-}
-@media (min-width: 768px) {     
-    .navbar{
-      
-      height: 45px;
+@import './../../../theme';
+
+header{
+    .active > a{
+        color: $secondary !important;
     }
-  }
 
+    .sb-small-header {
+        button {
+            background-color: transparent; 
+            border:none;
+            width: 60px; 
+        }
+        div {
+            img {
+                width: 200px;
+            }
+        }
+    }
+    .sb-large-header {
+        font-size: clamp(17px, 2vw, 27px) !important;
+        button {
+            background-color: transparent; 
+            border:none;
+        }
+        div {
+            img {
+                width: clamp(100px,13vw,140px) !important;
+            }
+        }
+    }
+    .sb-header-line{
+        background-color: $secondary;
+        border-width: 0;
+        color: #343a40;
+        margin: 0;
+        height: 4px;
+        width: 100%;
+    }
+    .sb-btn-menu{
+        color: $secondary;
+    }
+    .sb-header-menu {
+        font-size: 20px;
+        transition: top 1s;
+        ul {
+            margin: auto;
+        }
+    }
+    #sb-header{
+        transition: top 0.5s;  
+    }
 
-#col-logo-sm{
-    text-align: left !important;
-}
+    .navbar {
+        transition: 500ms ease;
+    }
+    
+    .nav-active  {
+        background-color:white;
+        opacity: 0.95;
+        box-shadow: 5px -1px 12px -5px white;
+    }
 
-#col-toggler{
-    text-align: right !important;
-}
+    .nav-active .navbar-nav .nav-link {
+        color: #343a40 !important;
+    }
 
+    .navbar-dark .navbar-nav .nav-link {
+        color: whitesmoke;
+        font-size: 21px;
+        font-family: 'Raleway-light';;
+    }
+   
 
-nav-link{
-    padding-block: 15px;
-    padding-right: 30px;
-    color:#000 !important;
-}
-
-.navbar-light .navbar-nav .nav-link {
-    color: black;
-}
-
-#nav-links{
-    text-align: center;
-}
-
-#container-menu{
-    justify-content: center;
-    background-color: white;
-}
-
-#container-responsive{
-    display: block;
-    height: 70px;
-}
-
-.boton-menu{
-    border-radius: 50%;
-    margin-right: 25px;
-    border: transparent;
-    padding: 0 7px 1px 6px;
-}
-
-i {
-    font-size: 10px;
-}
-
-.btn:hover {
-    background-color:white; /* Green */
-    border: 1px solid lightslategray;
-  }
-
-.boton-idioma{
-    border: transparent;
-    background-color: white;
-}
-
-#div-idioma{
-    margin-left: 50px;
 }
