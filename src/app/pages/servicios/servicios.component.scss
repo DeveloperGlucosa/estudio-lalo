@@ -1,0 +1,64 @@
+#container-servicios{
+    padding-top: 15px;
+    font-family: 'Raleway-regular';
+    text-align: start;
+    }
+
+
+    .img-proceso{
+        width: 375px;
+         height: 230px;
+        vertical-align: middle;
+        text-align: center;
+}
+
+    h1{
+        margin-bottom: 15px;
+    }
+
+  
+    .white-block{
+        width: 100%;
+        height: 50px;
+    }
+
+    .white-block-footer{
+        width: 100%;
+        height: 110px;
+    }
+
+    .mod-services{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .img-clientes {
+        height: auto;
+        max-width: 89%;
+    }
+
+    @media (max-width: 576px){
+        .text-screen-sm{
+            text-align: center;
+            letter-spacing: 1px;
+            padding-left: 5px;
+            padding-right: 5px;
+    }
+    .img-proceso{
+        width: 345px;
+         height: 210px;
+    
+    }
+    .mod-services{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+#partners-text{
+    text-align: justify;
+}
+
+.text{
+    font-family: 'Raleway-medium'; 
+}
+
+

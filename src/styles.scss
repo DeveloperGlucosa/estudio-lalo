@@ -1,0 +1,46 @@
+@import "~bootstrap/scss/bootstrap";
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+
+@font-face {
+    font-family: Roboto;
+    src: url(assets/fonts/Roboto-Thin.ttf) format("opentype");
+    font-size: 20px;
+  }
+
+@font-face {
+    font-family: Roboto-light;
+    src: url(assets/fonts/Roboto-Light.ttf) format("opentype");
+    font-size: 20px;
+    letter-spacing: 2px;
+  }
+  @font-face {
+    font-family: Roboto-medium;
+    src: url(assets/fonts/Roboto-Medium.ttf) format("opentype");
+  }
+
+  @font-face {
+    font-family: Raleway-light;
+    src: url(assets/fonts/Raleway-Light.ttf) format("opentype");
+  }
+
+  @font-face {
+    font-family: Raleway-medium;
+    src: url(assets/fonts/Raleway-Medium.ttf) format("opentype");
+  }
+
+  @font-face {
+    font-family: Raleway-medimItalic;
+    src: url(assets/fonts/Raleway-MediumItalic.ttf) format("opentype");
+  }
+
+  @font-face {
+    font-family: Raleway-regular;
+    src: url(assets/fonts/Raleway-Regular.ttf) format("opentype");
+  }
+
+  @font-face {
+    font-family: Raleway-semiboldItalic;
+    src: url(assets/fonts/Raleway-SemiBoldItalic.ttf) format("opentype");
+  }
+/* Importing Bootstrap SCSS file. */
+@import '~bootstrap/scss/bootstrap';

@@ -1,0 +1,35 @@
+#container-estudio{
+font-family: 'Raleway-regular';
+text-align: justify;
+}
+
+#leyenda{
+font-family:'Raleway-regular';
+padding-top: 40px;
+text-align: left;
+text-transform: uppercase;
+letter-spacing: 3px;
+word-spacing: 8px;
+}
+
+.img-perfil{
+    margin-bottom: 35px;
+}
+#foto{
+    max-width: 65%;
+}
+
+.img_certificacion{
+    width: 65%;
+}
+
+.img-nosotros{   
+    width: 300px;
+    height: 200px;
+    
+}
+@media (min-width: 576px){
+#div-title{
+    padding-top: 75px;
+}
+}

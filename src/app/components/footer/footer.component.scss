@@ -1,0 +1,28 @@
+#footer > h1 > i{
+    padding: 20px im !important;
+    color: lightgray;
+}
+
+#derechos{
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.redes{
+    letter-spacing: 2px;
+}
+.redes>a{
+    text-decoration: none;
+    color: black;
+    margin-right: 40px;
+} 
+
+@media (max-width: 768px) {     
+    .redes>a{
+      
+        font-size: 3vw;
+        margin-right: 13px;
+    }
+  }
+
+

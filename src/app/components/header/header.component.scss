@@ -1,0 +1,95 @@
+@import './../../../theme';
+
+header{
+    .boton-idioma{
+        border: transparent;
+        background-color: white;
+        font-size: 15px;
+    }
+
+    #container-responsive{
+        display: block;
+        height: 70px;
+    }
+    .toggle-color a{
+        color: black !important;
+    }
+   
+    .styleMenu a{ 
+        color: black !important;
+        font-size: 15px !important;
+    }
+    
+
+    .sb-small-header {
+
+        div {
+            img {
+                width: 65px;
+                margin-left: 15px;
+            }
+        }
+
+    }
+    .sb-large-header {
+        font-size: clamp(17px, 2vw, 27px) !important;
+        button {
+            background-color: transparent; 
+            border:none;
+        }
+        div {
+            img {
+                width: clamp(100px,13vw,140px) !important;
+            }
+        }
+    }
+    .sb-header-line{
+        background-color: $secondary;
+        border-width: 0;
+        color: #343a40;
+        margin: 0;
+        height: 4px;
+        width: 100%;
+    }
+    .sb-btn-menu{
+        color: $secondary;
+    }
+    .sb-header-menu {
+        justify-content: center;
+        background-color: white;
+        color: #343a40;
+        font-size: 20px;
+        transition: top 1s;
+        ul {
+            margin: auto;
+        }
+        a{
+            font-size: 15px;
+        }
+    }
+    #sb-header{
+        transition: top 0.5s;  
+    }
+
+    .navbar {
+        transition: 500ms ease;
+    }
+    
+    .nav-active  {
+        background-color:white;
+        opacity: 0.95;
+        box-shadow: 5px -1px 12px -5px white;
+    }
+
+    .nav-active .navbar-nav .nav-link {
+        color: #343a40 !important;
+    }
+
+    .navbar-dark .navbar-nav .nav-link {
+        color: whitesmoke;
+        font-size: 21px;
+        font-family: 'Raleway-light';;
+    }
+
+
+}
