@@ -30,6 +30,21 @@
         margin-top: 70px;
     
     }
+    .bg-img{
+        background-repeat: no-repeat;
+        background-position: center center;
+        -webkit-background-size: cover;
+        background-size: cover;
+        height: 252px;
+        width: 365px;
+    }
+    .centrado{
+        position: absolute;
+        top: 16% !important;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+    }
 }
 
 #derechos{

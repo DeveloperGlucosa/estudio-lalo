@@ -1,21 +1,37 @@
 @import './../../../theme';
 
 header{
-    .active > a{
-        color: $secondary !important;
+    .boton-idioma{
+        border: transparent;
+        background-color: white;
+        font-size: 15px;
     }
 
+    #container-responsive{
+        display: block;
+        height: 70px;
+    }
+    .toggle-color a{
+        color: black !important;
+        font-size: 21px;
+        font-family: 'Raleway-light';
+    }
+   
+    .styleMenu a{ 
+        color: black !important;
+        font-size: 15px !important;
+    }
+    
+
     .sb-small-header {
-        button {
-            background-color: transparent; 
-            border:none;
-            width: 60px; 
-        }
+
         div {
             img {
-                width: 200px;
+                width: 65px;
+                margin-left: 15px;
             }
         }
+
     }
     .sb-large-header {
         font-size: clamp(17px, 2vw, 27px) !important;
@@ -41,10 +57,16 @@ header{
         color: $secondary;
     }
     .sb-header-menu {
+        justify-content: center;
+        background-color: white;
+        color: #343a40;
         font-size: 20px;
         transition: top 1s;
         ul {
             margin: auto;
+        }
+        a{
+            font-size: 15px;
         }
     }
     #sb-header{
@@ -65,11 +87,11 @@ header{
         color: #343a40 !important;
     }
 
-    .navbar-dark .navbar-nav .nav-link {
+    .navbar-nav .nav-link {
         color: whitesmoke;
         font-size: 21px;
-        font-family: 'Raleway-light';;
+        font-family: 'Raleway-light';
     }
-   
+
 
 }

@@ -5,7 +5,7 @@
     
       <img src="assets/home/images/fondo2022.jpg" class="bg-img" alt="...">
      
-        <div class="centrado title">ESTUDIO FD</div> -->
+        <div class="centrado title">ESTUDIO FD</div> 
     
     </div>
   </div>
@@ -14,10 +14,11 @@
 
 
 <div class="container-fluid secc-home container-secciones" id="seccion-1">
-  <div class="row align-items-center">
+  <div class="row align-items-center position-relative">
     <div class="col-12 col-md-7 align-items-center p-3" id="col-sec1">
       <span>En ESTUDIO FD creamos sensaciones a través de nuestros proyectos de interiorismo. 
         Ayudamos a las personas a ser más productivas, a disfrutar su entorno y a ser más felices en sus espacios.</span>
+        <a routerLink="/estudio" class="stretched-link"> </a>
       </div>
       <div class="col-12 col-md-5 p-4">
         <img src="assets/home/images/Banner_FD_2x2.jpg"
@@ -37,7 +38,8 @@
   <div class="row d-none d-md-block white-block"></div>
   <div class="row p-4">
     <div class="col-md-4 mod-services py-4">
-      <img src="assets/servicios/images/Corporativo.jpg" class="img-proceso rounded mx-auto d-block" alt="...">
+      <button type="button" class="btn-image" data-bs-toggle="modal" routerLink="/servicios" >
+      <img src="assets/servicios/images/corporativo.jpg" class="img-proceso rounded mx-auto d-block" alt="..."></button>
       <br />
       <div class="text-screen-sm">
       <h5><b>{{ 'SERVICIOS.SERV_TIT5.TITLE' | translate }}</b></h5>
@@ -48,7 +50,8 @@
       <br />
   </div>
       <div class="col-md-4 mod-services py-4">
-          <img src="assets/servicios/images/Residencial.jpg" class="img-proceso rounded mx-auto d-block" alt="...">
+        <button type="button" class="btn-image" data-bs-toggle="modal" routerLink="/servicios">
+          <img src="assets/servicios/images/residencial.jpg" class="img-proceso rounded mx-auto d-block" alt="..."></button>
           <br />
           <div class="text-screen-sm">
           <h5><b>{{ 'SERVICIOS.SERV_TIT3.TITLE' | translate }}</b></h5>
@@ -58,7 +61,8 @@
 
       </div>
       <div class="col-md-4 mod-services py-4">
-          <img src="assets/servicios/images/Comercial.jpg" class="img-proceso rounded mx-auto d-block" alt="...">
+        <button type="button" class="btn-image" data-bs-toggle="modal" routerLink="/servicios">
+          <img src="assets/servicios/images/comercial.jpg" class="img-proceso rounded mx-auto d-block" alt="..."></button>
           <br />
           <div class="text-screen-sm">
           <h5><b>{{ 'SERVICIOS.SERV_TIT4.TITLE' | translate }}</b></h5>
@@ -88,7 +92,7 @@
 
       <div class="col-10 col-md-6 p-2">
           
-              <button type="button" class="btn-image" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              <button type="button" class="btn-image" data-bs-toggle="modal" routerLink="/proyectos">
                   <img src="assets/proyectos/images/interlomas/Interlomas1.jpg"
                       class="img-fluid img-proyectos" alt="...">
               </button>
@@ -98,7 +102,7 @@
 
       <div class="col-10 col-md-6 p-2">
           
-              <button type="button" class="btn-image" data-bs-toggle="modal" data-bs-target="#modal2">
+              <button type="button" class="btn-image" data-bs-toggle="modal" routerLink="/proyectos">
                   <img src="assets/proyectos/images/sagasta/Cocina_1_A.jpg"
                       class="img-fluid img-proyectos" alt="...">
               </button>
@@ -115,20 +119,21 @@
             <br />
           </div>
       </div>
+      
       <div class="row p1">
         <div class="col d-flex justify-content-center" style="text-align: center;">
           <fa-icon [icon]="faWhatsapp" class="iconWhatsapp"></fa-icon>  
         </div>
       </div>
      
-      <div class="row">
+      <div class="row position-relative">
         <div class="col d-flex justify-content-center" style="text-align: center;">
-                   
+          <a routerLink="/contacto" class="stretched-link">           
           México & Madrid<br />
           eduardo@estudiofd.com<br />
-      
+      </a>
         </div>
-      </div>
+     
       <div class="row d-flex justify-content-center secc-home p-3">
         <div class="col d-flex justify-content-center">   
               <img src="assets/home/images/ESTUDIOFD.png"
@@ -136,6 +141,7 @@
         </div>
         
       </div>  
+    </div>
       <div class="row d-flex justify-content-center secc-home">
         <div class="col d-flex justify-content-center">   
     </div>
