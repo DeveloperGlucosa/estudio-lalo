@@ -1,7 +1,39 @@
 {
     "HOME": {
-        "TITLE": " Estudio FD. Todos los Derechos Reservados.",
-        "SELECT": "Change language"
+        "PAR1":{
+            "TITLE": "En ESTUDIO FD creamos sensaciones a través de nuestros proyectos de interiorismo. Ayudamos a las personas a ser más productivas, a disfrutar su entorno y a ser más felices en sus espacios.",
+            "SELECT": "Change language"
+        },
+        "PAR2-TITLE":{
+            "TITLE": "SERVICIOS",
+            "SELECT": "Change language"
+        },
+        "PAR2":{
+            "TITLE": "CORPORATIVO",
+            "SELECT": "Change language"
+        },
+        "PAR3":{
+            "TITLE": "RESIDENCIAL",
+            "SELECT": "Change language"
+        },
+        "PAR4":{
+            "TITLE": "COMERCIAL",
+            "SELECT": "Change language"
+        },
+        "PAR5":{
+            "TITLE": "¡Motivamos a tu equipo transformando tus oficinas en espacios espectaculares!",
+            "SELECT": "Change language"
+        },
+        "PAR6":{
+            "TITLE": "PROJECTOS",
+            "SELECT": "Change language"
+        },
+        "PAR7":{
+            "TITLE": "CONTACTO",
+            "SELECT": "Change language"
+        }
+        
+        
     },
     "MENU": {
         "HOME": {
@@ -31,33 +63,22 @@
             "SELECT": "Change language"
         },
         "PAR1":{
-            "TITLE": "ESTUDIO FD es un despacho de diseño que crea espacios y ambientes profundos, prácticos, llenos de estética y estilo.",
+            "TITLE": "Somos una firma de interiorismo con grandes ideas para grandes proyectos, expertos en diseñar espacios para para disfrutarse y sentirse bien.",
             "SELECT": "Change language"
         },
         "PAR2":{
-            "TITLE": "Somos expertos en wellness design para el desarrollo de grandes proyectos. Generamos propuestas enfocadas en la calidad de vida y en la mejor experiencia para el cliente y los cohabitantes del lugar.",
-            "SELECT": "Change language"
-        },
-        "PAR3":{
-            "TITLE": "Nos encanta diseñar mobiliario, remodelar espacios y construir experiencias enfocadas en el bienestar del usuario.",
-            "SELECT": "Change language"
-        },
-        "PAR4":{
-            "TITLE": "Cada uno de nuestros proyectos tiene una personalidad propia, están llenos de incógnitas y soluciones, de retos y satisfacciones, pero sobre todo de aprendizaje y mucho diseño.",
+            "TITLE": "Te ayudamos creando propuestas basadas en el wellness design y la neuroarquitectura que buscan el bienestar de las personas y su relación con el entorno, asegurándonos de cubrir todas tus necesidades.",
             "SELECT": "Change language"
         },
         "PAR5":{
-            "TITLE": "Eduardo estudió diseño industrial en la Universidad Iberoamericana (2002-2005).",
+            "TITLE": "Eduardo Ruiz es diseñador de interiores, con más de 10 años de experiencia en desarrollo de proyectos a diferentes escalas y sectores, desde diseño para producciones de cine, hasta colaboraciones para grandes corporativos y arquitectos de talla internacional.",
             "SELECT": "Change language"
         },
         "PAR6":{
-            "TITLE": "Posteriormente estudia una maestría en Diseño, en la UAEM (2009-2011) y en 2015 funda ESTUDIO FD.",
+            "TITLE": "En 2015 funda ESTUDIO FD con sede en México y Madrid, enfocando sus propuestas en la felicidad y calidad de vida de los usuarios.",
             "SELECT": "Change language"
         },
-        "PAR7":{
-            "TITLE": "Ha colaborado con arquitectos de talla internacional y con más de 10 años de experiencia, para Eduardo el diseño es una forma de vida. Es crear continuamente soluciones innovadoras. Es transmitir a través de los objetos cotidianos sentimientos inmersos en los materiales, las texturas, los aromas y las manos que los fabricaron y diseñaron.",
-            "SELECT": "Change language"
-        },
+        
         "PAR8":{
             "TITLE": "UN BUEN DISEÑO DEBE TENER UNA ESTÉTICA FANTÁSTICA, UNA FUNCIONALIDAD ESTUPENDA Y UNA CALIDAD EXTRAORDINARIA",
             "SELECT": "Change language"
@@ -76,10 +97,6 @@
             "TITLE": "Desarrollamos proyectos integrales de diseño y arquitectura para el sector residencial, corporativo y comercial.",
             "SELECT": "Change language"
         },
-        "SERV_TIT2":{
-            "TITLE": "ARQUITECTURA",
-            "SELECT": "Change language"
-        },
         "SERV_PAR2":{
             "TITLE": "Conceptualización, diseño, visualización, iluminación, construcción y acabados arquitectónicos.",
             "SELECT": "Change language"
@@ -92,6 +109,10 @@
             "TITLE": "Diseño y fabricación de carpintería fija, cocinas, vestidores, muebles de baño, mobiliario general e interiorismo.",
             "SELECT": "Change language"
         },
+        "SERV_TIT3_SUB":{
+            "TITLE": "Disfruta de tu hogar al máximo",
+            "SELECT": "Change language"
+        },
         "SERV_TIT4":{
             "TITLE": "COMERCIAL",
             "SELECT": "Change language"
@@ -100,10 +121,22 @@
             "TITLE": "Desarrollo y producción de mobiliario, acabados, señalización y remodelación de restaurantes, bares, cafeterías, retail, hoteles y colegios.",
             "SELECT": "Change language"
         },
+        "SERV_TIT4_SUB":{
+            "TITLE": "Incrementa tus ventas",
+            "SELECT": "Change language"
+        },
+
         "SERV_TIT5":{
             "TITLE": "CORPORATIVO",
             "SELECT": "Change language"
         },
+        "SERV_TIT5_SUB":{
+            "TITLE": "Mayor productividad",
+            "SELECT": "Change language"
+        },
+        
+        
+        
         "SERV_PAR5":{
             "TITLE": "Diseño y producción de escritorios, mobiliario de almacenaje, recepción, salas de juntas, sillería y remodelación de oficinas.",
             "SELECT": "Change language"

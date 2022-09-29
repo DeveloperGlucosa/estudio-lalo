@@ -1,7 +1,38 @@
 {
     "HOME": {
-        "TITLE": " Estudio FD. All rights reserved.",
-        "SELECT": "Change language"
+        "PAR1":{
+            "TITLE": "In ESTUDIO FD we create sensations through our interior projects. We help people to be more productive, to enjoy their environment and to be happier in their spaces.",
+            "SELECT": "Change language"
+        },
+        "PAR2-TITLE":{
+            "TITLE": "SERVICES",
+            "SELECT": "Change language"
+        },
+        "PAR2":{
+            "TITLE": "OFFICES",
+            "SELECT": "Change language"
+        },
+        "PAR3":{
+            "TITLE": "RESIDENTIAL",
+            "SELECT": "Change language"
+        },
+        "PAR4":{
+            "TITLE": "COMMERCIAL",
+            "SELECT": "Change language"
+        },
+        "PAR5":{
+            "TITLE": "We motivate your team by turning your offices into spectacular places!",
+            "SELECT": "Change language"
+        },
+        "PAR6":{
+            "TITLE": "PROJECTS",
+            "SELECT": "Change language"
+        },
+        "PAR7":{
+            "TITLE": "CONTACT",
+            "SELECT": "Change language"
+        }
+        
     },
     "MENU": {
         "HOME": {
@@ -31,31 +62,19 @@
             "SELECT": "Change language"
         },
         "PAR1":{
-            "TITLE": "ESTUDIO FD, is an interior design firm, that creates deep and practical spaces and environments, full of aesthetic and style.",
+            "TITLE": "We are an interior design firm with great ideas for great projects, with the design expertise to develop aesthetic interiors to enjoy and feel good.",
             "SELECT": "Change language"
         },
         "PAR2":{
-            "TITLE": "We are experts in WELLNESS DESIGN for the development of great projects. Our proposals are focused on the quality of life and the best experience for the cohabitants.",
-            "SELECT": "Change language"
-        },
-        "PAR3":{
-            "TITLE": "We love designing furniture, remodeling spaces and creating experiences focused on the wellbeing of the user.",
-            "SELECT": "Change language"
-        },
-        "PAR4":{
-            "TITLE": "Each one of our projects has its own personality, they’re full of unknowns and solutions, challenges and satisfaction, but above all, of knowledge and tons of design.",
+            "TITLE": "We help you with design proposals based on wellness design and neuroarchitecture, to achieve well-being between people and their relationship with the environment, making sure to cover all your needs.",
             "SELECT": "Change language"
         },
         "PAR5":{
-            "TITLE": "Eduardo got a bachelor’s degree in Industrial Design at Universidad Iberoamericana (2002-2005).",
+            "TITLE": "Eduardo Ruiz is an interior designer, with 10+ years’ experience in the field. Has developed projects in different scales and sectors, from movie scenarios, to large corporations and collaborated with big architecture firms.",
             "SELECT": "Change language"
         },
         "PAR6":{
-            "TITLE": "Later he got a Master’s degree in design at UAEM (2009-2011). In 2015 he founded ESTUDIO FD.",
-            "SELECT": "Change language"
-        },
-        "PAR7":{
-            "TITLE": "He has collaborated with internationally well known architects. With +10 years of experience, for him, design is a way of living. Design is the continuous creation of innovative solutions. To transmit feelings through the everyday objects and their textures, materials, scents and the hands that designed and made them.",
+            "TITLE": "n 2015 he founded ESTUDIO FD, now based in Mexico and Madrid, focusing its proposals on the happiness and user’s quality of life.",
             "SELECT": "Change language"
         },
         "PAR8":{
@@ -88,6 +107,10 @@
             "TITLE": "RESIDENTIAL",
             "SELECT": "Change language"
         },
+        "SERV_TIT3_SUB":{
+            "TITLE": "Enjoy your home to the fullest. ",
+            "SELECT": "Change language"
+        },
         "SERV_PAR3":{
             "TITLE": "Design and manufacture of furniture, kitchens, dressing rooms, bathroom furniture, general furniture and interior design.",
             "SELECT": "Change language"
@@ -96,12 +119,20 @@
             "TITLE": "COMERCIAL",
             "SELECT": "Change language"
         },
+        "SERV_TIT4_SUB":{
+            "TITLE": "Increase your sales.",
+            "SELECT": "Change language"
+        },
         "SERV_PAR4":{
             "TITLE": "Development and manufacture of furniture, details, signs and remodeling of restaurants, bars, cafeterias, retail stores, hotels and schools.",
             "SELECT": "Change language"
         },
         "SERV_TIT5":{
             "TITLE": "CORPORATE",
+            "SELECT": "Change language"
+        },
+        "SERV_TIT5_SUB":{
+            "TITLE": "More productivity.",
             "SELECT": "Change language"
         },
         "SERV_PAR5":{
@@ -116,7 +147,7 @@
             "TITLE": "At the Studio we work with some of the best brands on the market. The quality of materials and processes characterize each of our projects.",
             "SELECT": "Change language"
         }
-
+        
     },
     "PROYECTOS":{
         "TITULO":{
