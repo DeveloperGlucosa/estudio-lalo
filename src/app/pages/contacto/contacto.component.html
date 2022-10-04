@@ -6,7 +6,7 @@
     </div>
   </div>
   <div class="row p-3">
-    <div class="col-md-6">
+    <div class="col-md-6 formulario">
     <p>
       <b>{{ 'CONTACTO.PAR1.TITLE' | translate }}</b>
       <br /><br />
@@ -36,18 +36,34 @@
     
 
     </div>
-  <div class="col-md-6 my-4">
+  <div class="col-md-6 my-4 formulario">
     <br/>
-    <b> {{ 'CONTACTO.PAR7.TITLE' | translate }}</b> 
+    <b> {{ 'CONTACTO.PAR7.TITLE' | translate }} </b> 
     <br/><br/>
-    <b>{{ 'CONTACTO.PAR8.TITLE' | translate }}</b>
-    <br/><i class="bi bi-envelope"></i>{{ 'CONTACTO.PAR9.TITLE' | translate }}
-    <br/>{{ 'CONTACTO.PAR10.TITLE' | translate }}
-    
+    <b>{{ 'CONTACTO.PAR8.TITLE' | translate }} - {{ 'CONTACTO.PAR11.TITLE' | translate }}</b> <br/>
+    <i class="bi bi-envelope"></i> {{ 'CONTACTO.PAR9.TITLE' | translate }}
     <br/> <br/>
-    <b>{{ 'CONTACTO.PAR11.TITLE' | translate }} </b>
-    <br/> <i class="bi bi-envelope"></i> {{ 'CONTACTO.PAR12.TITLE' | translate }}
-    <br/>{{ 'CONTACTO.PAR13.TITLE' | translate }}<br/>
+    <div class="row img-inicial">
+      <div class="col d-flex formulario">
+        <a href="https://api.whatsapp.com/send?phone=34691013689"> <fa-icon [icon]="faWhatsapp" class="iconWhatsapp"></fa-icon>  </a>
+        <br/>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col d-flex formulario">
+          Mex: +527222450752 <br/>
+          Esp: +34691013689
+      </div>
+    </div>
+    <div class="row d-flex p-3">
+      <div class="col d-flex">   
+            <img src="assets/home/images/ESTUDIOFD.png"
+                class="img-fluid img-logo" alt="...">
+      </div>
+      
+    </div>  
+    
+    
   </div>
 </div>
 
