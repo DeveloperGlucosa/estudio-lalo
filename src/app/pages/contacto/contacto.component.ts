@@ -4,6 +4,7 @@ import { EmailService } from './../../_services/email.service';
 import { FormBuilder } from '@angular/forms';
 import swal from 'sweetalert2';
 import { RecaptchaComponent } from "ng-recaptcha";
+import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 
 @Component({
   selector: 'app-contacto',
@@ -11,6 +12,7 @@ import { RecaptchaComponent } from "ng-recaptcha";
   styleUrls: ['./contacto.component.scss']
 })
 export class ContactoComponent implements OnInit {
+  faWhatsapp = faWhatsapp;
 
   captcha = false;
   
