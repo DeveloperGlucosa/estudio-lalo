@@ -12,11 +12,16 @@
     font-size: 50px;
     opacity: 0.55;
     color: gray;
+    margin-left: 1em;
 }
 @media (max-width: 576px){
 .formulario{
 padding-right: 42px;
 padding-left: 20px;
+}
+.img-logo{
+    max-width: 16%;
+    margin-left: 2em;
 }
 }
 @media (min-width: 576px){
@@ -24,8 +29,9 @@ padding-left: 20px;
     padding-right: 90px;
    
     }
+    .img-logo{
+        max-width: 12%;
+        margin-left: 2em;
+    }
 }
 
-.img-logo{
-    max-width: 12%;
-}

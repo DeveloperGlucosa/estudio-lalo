@@ -16,8 +16,7 @@
 <div class="container-fluid secc-home container-secciones" id="seccion-1">
   <div class="row align-items-center position-relative">
     <div class="col-12 col-md-7 align-items-center p-3" id="col-sec1">
-      <span>En ESTUDIO FD creamos sensaciones a través de nuestros proyectos de interiorismo. 
-        Ayudamos a las personas a ser más productivas, a disfrutar su entorno y a ser más felices en sus espacios.</span>
+      <span>{{ 'HOME.PAR1.TITLE' | translate }}</span>
         <a routerLink="/estudio" class="stretched-link"> </a>
       </div>
       <div class="col-12 col-md-5 p-4">
@@ -32,7 +31,7 @@
 <div class="container container-secciones">
   <div class="row">
       <div class="col">
-          <h2><b>{{ 'SERVICIOS.TITULO.TITLE' | translate }}</b></h2>
+          <h2><b>{{ 'HOME.PAR2-TITLE.TITLE' | translate }}</b></h2>
       </div>
   </div>
   <div class="row d-none d-md-block white-block"></div>
@@ -42,7 +41,7 @@
       <img src="assets/servicios/images/corporativo.jpg" class="img-proceso rounded mx-auto d-block" alt="..."></button>
       <br />
       <div class="text-screen-sm">
-      <h5><b>{{ 'SERVICIOS.SERV_TIT5.TITLE' | translate }}</b></h5>
+      <h5><b>{{ 'HOME.PAR2.TITLE' | translate }}</b></h5>
      
       
      
@@ -54,7 +53,7 @@
           <img src="assets/servicios/images/residencia.jpg" class="img-proceso rounded mx-auto d-block" alt="..."></button>
           <br />
           <div class="text-screen-sm">
-          <h5><b>{{ 'SERVICIOS.SERV_TIT3.TITLE' | translate }}</b></h5>
+          <h5><b>{{ 'HOME.PAR3.TITLE' | translate }}</b></h5>
          
           </div>
           <br />
@@ -65,7 +64,7 @@
           <img src="assets/servicios/images/comercial.jpg" class="img-proceso rounded mx-auto d-block" alt="..."></button>
           <br />
           <div class="text-screen-sm">
-          <h5><b>{{ 'SERVICIOS.SERV_TIT4.TITLE' | translate }}</b></h5>
+          <h5><b>{{ 'HOME.PAR4.TITLE' | translate }}</b></h5>
           
           </div>
          
@@ -75,7 +74,7 @@
   </div>
   <div class="row p-4">
     <div class="col d-flex justify-content-center">
-       ¡Motivamos a tu equipo transformando tus oficinas en espacios espectaculares!
+      {{ 'HOME.PAR5.TITLE' | translate }}
     </div>
   
   </div>
@@ -84,7 +83,7 @@
   <div class="container container-secciones">
     <div class="row">
         <div class="col">
-            <h2><b>{{ 'PROYECTOS.TITULO.TITLE' | translate }}</b></h2>
+            <h2><b>{{ 'HOME.PAR6.TITLE' | translate }}</b></h2>
             <br />
         </div>
     </div>
@@ -115,7 +114,7 @@
     <div class="container container-secciones">
       <div class="row" style="padding-top: 50px;">
           <div class="col">
-            <h2><b>{{ 'CONTACTO.TITULO.TITLE' | translate }}</b></h2>
+            <h2><b>{{ 'HOME.PAR7.TITLE' | translate }}</b></h2>
             <br />
           </div>
       </div>
@@ -133,23 +132,24 @@
           eduardo@estudiofd.com<br />
       </a>
         </div>
-     
+      </div>
       <div class="row d-flex justify-content-center secc-home p-3">
-        <div class="col d-flex justify-content-center">   
+        <div class="col d-flex justify-content-center" style="text-align: center;">   
               <img src="assets/home/images/ESTUDIOFD.png"
                   class="img-fluid img-logo" alt="...">
         </div>
         
       </div>  
-    </div>
+    </div> <!--termina contacto-->
       <div class="row d-flex justify-content-center secc-home">
         <div class="col d-flex justify-content-center">   
     </div>
         </div>
-      
+        <div class="row d-none d-md-block white-block-footer"></div>
+        <app-footer></app-footer>
          
          
-    </div>
+    
 
 
   

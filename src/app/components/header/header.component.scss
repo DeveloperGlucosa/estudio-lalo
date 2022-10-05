@@ -11,10 +11,15 @@ header{
         display: block;
         height: 70px;
     }
+
+
     .toggle-color a{
         color: black !important;
         font-size: 21px;
         font-family: 'Raleway-light';
+    }
+    .toggle-color button, .toggle-color .button-box, #navbarCollapse .button-box, #navbarCollapse .boton-idioma{
+        color: black !important;
     }
    
     .styleMenu a{ 
@@ -28,6 +33,7 @@ header{
         div {
             img {
                 width: 65px;
+                height: 4.5em;
                 margin-left: 15px;
             }
         }
@@ -83,14 +89,28 @@ header{
         box-shadow: 5px -1px 12px -5px white;
     }
 
-    .nav-active .navbar-nav .nav-link {
+    @media (max-width: 576px){
+        .navbar  {
+            background-color:white;
+            opacity: 1;
+            box-shadow: 5px -1px 12px -5px white;
+        }
+    }
+
+    .nav-active .navbar-nav .nav-link, .nav-active .navbar-nav .button-box, .nav-active .navbar-nav .boton-idioma{
         color: #343a40 !important;
     }
 
-    .navbar-nav .nav-link {
+    .navbar-nav .nav-link{
         color: whitesmoke;
         font-size: 21px;
         font-family: 'Raleway-light';
+    }
+
+    .button-box, .boton-idioma{
+        color: whitesmoke;
+        font-size: 12px;
+        line-height: 4em;
     }
 
 
