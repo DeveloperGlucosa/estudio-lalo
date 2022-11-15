@@ -121,13 +121,13 @@
       
       <div class="row p1">
         <div class="col d-flex justify-content-center" style="text-align: center;">
-          <a href="https://api.whatsapp.com/send?phone=34691013689"> <fa-icon [icon]="faWhatsapp" class="iconWhatsapp"></fa-icon>  </a>
+          <a href="https://api.whatsapp.com/send?phone=34691013689" onclick="gtag('event', 'click', { 'event_category': 'button',  'event_label': 'Whatsapp'});"> <fa-icon [icon]="faWhatsapp" class="iconWhatsapp"></fa-icon>  </a>
         </div>
       </div>
      
       <div class="row position-relative">
         <div class="col d-flex justify-content-center" style="text-align: center;">
-          <a routerLink="/contacto" class="stretched-link">           
+          <a routerLink="/contacto" class="stretched-link" onclick="gtag('event', 'click', { 'event_category': 'button',  'event_label': 'Correo'});">           
           México & Madrid<br />
           eduardo@estudiofd.com<br />
       </a>
