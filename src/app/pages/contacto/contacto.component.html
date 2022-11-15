@@ -41,18 +41,18 @@
     <b> {{ 'CONTACTO.PAR7.TITLE' | translate }} </b> 
     <br/><br/>
     <b>{{ 'CONTACTO.PAR8.TITLE' | translate }} - {{ 'CONTACTO.PAR11.TITLE' | translate }}</b> <br/>
-    <i class="bi bi-envelope"></i> {{ 'CONTACTO.PAR9.TITLE' | translate }}
+    <i class="bi bi-envelope"></i> <a href="mailto:{{ 'CONTACTO.PAR9.TITLE' | translate }}" onclick="gtag('event', 'click', { 'event_category': 'button',  'event_label': 'Correo'});">{{ 'CONTACTO.PAR9.TITLE' | translate }}</a>
     <br/> <br/>
     <div class="row py-3">
       <div class="col d-flex formulario">
-        <a href="https://api.whatsapp.com/send?phone=34691013689"> <fa-icon [icon]="faWhatsapp" class="iconWhatsapp"></fa-icon>  </a>
+        <a href="https://api.whatsapp.com/send?phone=34691013689" onclick="gtag('event', 'click', { 'event_category': 'button',  'event_label': 'Formulario'});"> <fa-icon [icon]="faWhatsapp" class="iconWhatsapp"></fa-icon>  </a>
         <br/>
       </div>
     </div>
     <div class="row">
       <div class="col d-flex formulario">
-          Mex: +527222450752 <br/>
-          Esp: +34691013689
+          Mex: <a href="tel:+527222450752" onclick="gtag('event', 'click', { 'event_category': 'button',  'event_label': 'Telefono'});">+527222450752</a> <br/>
+          Esp: <a href="tel:+34691013689" onclick="gtag('event', 'click', { 'event_category': 'button',  'event_label': 'Telefono'});">+34691013689</a>
       </div>
     </div>
     
